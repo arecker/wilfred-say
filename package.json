@@ -1,0 +1,24 @@
+{
+  "name": "wilfred-say",
+  "version": "1.0.0",
+  "description": "Print Wilfred quotes to the commandline",
+  "main": "wilfred-say.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arecker/wilfred-say"
+  },
+  "author": "Alex Recker",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/arecker/wilfred-say/issues"
+  },
+  "homepage": "https://github.com/arecker/wilfred-say",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1"
+  }
+}
