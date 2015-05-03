@@ -14,7 +14,7 @@ module.exports = function(grunt){
 			},
 			my_target: {
 				files: {
-					'wilfred-say.js': ['src/quotes.js', 'src/prototypes.js', 'src/main.js']
+					'build/wilfred-say.js': ['src/quotes.js', 'src/prototypes.js', 'src/main.js']
 				}
 			}
 		},
@@ -32,11 +32,17 @@ module.exports = function(grunt){
 				maxparams: 5,
 				futurehostile: true
 			}
+		},
+
+		nexe: {
+			input: 'build/wilfred-say.js',
+			output: 'build/bin/wilfred-say'
 		}
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.registerTask('default', ['jshint', 'uglify']);
+	grunt.loadNpmTasks('grunt-nexe');
+	grunt.registerTask('default', ['jshint', 'uglify', 'nexe']);
 
 };
