@@ -6,7 +6,7 @@ Print Wilfred quotes to the commandline.
 
 To build the project, install the grunt dependencies and run the default grunt task
 
-    $ grunt install
+    $ npm install
     $ grunt
 
 ## Installing
