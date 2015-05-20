@@ -254,7 +254,7 @@ var quotes = [
         e: 2
     },
     {
-        t: 'We are all in the same boat, in a stormy, sea, and we owe each other a terrible loyalty.',
+        t: 'We are all in the same boat, in a stormy sea, and we owe each other a terrible loyalty.',
         a: 'G.K. Chesterton',
         s: 4,
         e: 3
