@@ -4,10 +4,9 @@ Print Wilfred quotes to the commandline.
 
 ## Building
 
-To build the project, install the grunt dependencies and run the default grunt task
+To build the project, just run ```make```
 
-    $ npm install
-    $ grunt
+    $ make
 
 ## Installing
 
