@@ -2,6 +2,8 @@
 
 Print Wilfred quotes to the commandline.
 
+[![Build Status](http://travis-ci.org/arecker/wilfred-say.svg?branch=master)](http://travis-ci.org/arecker/wilfred-say)
+
 ## Building
 
 To build the project, just run ```make```
