@@ -1,4 +1,4 @@
-(function(){
+(function(String, undefined){
     if (!String.prototype.format) {
         String.prototype.format = function() {
             var args = arguments;
@@ -7,5 +7,5 @@
             });
         };
     }
-}());
+}(String));
     
