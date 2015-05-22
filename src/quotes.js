@@ -56,13 +56,13 @@ var quotes = [
         e: 9
     },
     {
-        t: 'Isolation is a self-defeating dream',
+        t: 'Isolation is a self-defeating dream.',
         a: 'Carlos Salinas de Gortari',
         s: 1,
         e: 10
     },
     {
-        t: 'Doubt must be no more than vigilance, otherwise it can become dangerous',
+        t: 'Doubt must be no more than vigilance, otherwise it can become dangerous.',
         a: 'George C. Lichtenberg',
         s: 1,
         e: 11
@@ -94,7 +94,7 @@ var quotes = [
         e: 2
     },
     {
-        t: 'Let not a man guard his dignity but let his dignity guard him',
+        t: 'Let not a man guard his dignity but let his dignity guard him.',
         a: 'Ralph Waldo Emerson',
         s: 2,
         e: 3
