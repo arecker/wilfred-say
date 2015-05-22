@@ -8,6 +8,10 @@ Print Wilfred quotes to the commandline.
 
 ## Building
 
+You will need nodejs to build this project.  Install it like so
+
+    $ sudo apt-get install nodejs nodejs-legacy
+
 To build the project, just run ```make```
 
     $ make
