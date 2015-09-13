@@ -1,5 +1,6 @@
+#! /usr/bin/env node 
 /**
- * wilfred-say - v1.0.0 
+ * wilfred-say - v1.0.2 
  * Print Wilfred quotes to the commandline 
  * https://github.com/arecker/wilfred-say 
  **/

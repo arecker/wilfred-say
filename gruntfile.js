@@ -4,8 +4,9 @@ module.exports = function(grunt){
 	pkg: grunt.file.readJSON('package.json'),
 
 	uglify: {
-	    options: {
-		banner: '/**\n' +
+	    options: { 
+		banner: '#! /usr/bin/env node \n' + 
+                    '/**\n' +
 		    ' * <%= pkg.name %> - v<%= pkg.version %> \n' +
 		    ' * <%= pkg.description %> \n' +
 		    ' * <%= pkg.repository.url %> \n' +
