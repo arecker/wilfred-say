@@ -15,7 +15,7 @@ module.exports = function(grunt){
 	    },
 	    my_target: {
 		files: {
-		    'build/wilfred-say.js': ['src/quotes.js', 'src/prototypes.js', 'src/main.js']
+		    'build/wilfred-say.js': ['src/quotes.js', 'src/main.js']
 		}
 	    }
 	},
