@@ -18,7 +18,11 @@ To build the project, just run ```make```
 
 ## Installing
 
-Running the grunt task should create the binary ```build/bin/wilfred-say```.  You can run this executable directly, or place it in the system  bin by running
+Install the package globally with `npm`
+
+    $ sudo npm install -g wilfred-say
+
+Or run the `grunt` command.  Running the grunt task should create the binary ```build/bin/wilfred-say```.  You can run this executable directly, or place it in the system  bin by running
 
     $ sudo make install
 
