@@ -6,6 +6,10 @@
   "scripts": {
     "test": "grunt"
   },
+  "preferGlobal": true,
+  "bin": {
+      "wilfred-say": "build/wilfred-say.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/arecker/wilfred-say"
