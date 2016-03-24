@@ -9,8 +9,7 @@ before_script:
   - npm install -g grunt grunt-cli
 
 script:
-  - make
-  - sudo make install
+  - grunt
 
 notifications:
   email: false
