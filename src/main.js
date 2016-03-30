@@ -16,5 +16,5 @@
         quote = quotes[r],
         output = '{0}\n-- {1}'.format(quote.text, quote.author);
     
-    console.log(require('wordwrap')(80)(output));
+    console.log(require('wordwrap')(70)(output));
 }(quotes, Math, String));
