@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from __future__ import unicode_literals, print_function
 
 import random
@@ -173,7 +172,7 @@ QUOTES = [{
     'episode': 6
 }, {
     'text': 'Intuition is more important to discovery than logic.',
-    'author': 'Henri Poincaré',
+    'author': 'Henri Poincare',
     'season': 3,
     'episode': 7
 }, {
@@ -187,12 +186,12 @@ QUOTES = [{
     'season': 3,
     'episode': 9
 }, {
-    'text': 'Sometimes it’s necessary to go a long distance out of the way to come back a short distance correctly.',
+    'text': 'Sometimes it\'s necessary to go a long distance out of the way to come back a short distance correctly.',
     'author': 'Edward Albea',
     'season': 3,
     'episode': 10
 }, {
-    'text': 'Stagnation is death. If you don’t change, you die. It’s that simple. It’s that scary.',
+    'text': 'Stagnation is death. If you don\'t change, you die. It\'s that simple. It\'s that scary.',
     'author': 'Leonard Sweet',
     'season': 3,
     'episode': 11
